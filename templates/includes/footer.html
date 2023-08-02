@@ -1,0 +1,33 @@
+{% load static i18n %}
+
+<footer class="footer container">
+
+  <div class="row">
+    <div class="col-md-6">
+      <nav class="nav justify-content-end">
+        {% include "includes/switch_language.html" %}
+      </nav>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="text-sm text-muted nav-link">{% trans "PySeeker" %}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="text-sm text-muted nav-link disabled" tabindex="-1" aria-disabled="true">
+            <span class="text-sm">&copy; 2021-{% now "Y" %}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>

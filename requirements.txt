@@ -1,0 +1,13 @@
+Django==3.2.20
+django-allauth==0.49.0
+django-cors-headers==3.11.0
+django-filter==21.1
+django-updown-ratings==1.0.1
+django-rest-auth==0.9.5
+djangorestframework==3.13.1
+flake8==4.0.1
+Markdown==3.3.4
+martor==1.6.12
+psycopg2-binary==2.9.3
+requests==2.27.1
+
